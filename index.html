@@ -1,16 +1,26 @@
 <html ng-app>
+
 <head>
     <title>Team Human</title>
     <style>
-        html, body {
+        html,
+        body {
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+        }
+
+        #poptitle {
+            position: absolute;
+            top: 25vh;
+            left: 25vw;
+            font-size: 5vh;
+            height: 50vh;
+            width: 50vw;
         }
 
         h1,
         h3 {
-            color: black;
-            background: #CCCCFF;
-            opacity: .8;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
             padding: 3px;
             border: 1px solid black;
             border-radius: 10px;
@@ -19,6 +29,10 @@
 
         h1 {
             padding: 5px;
+        }
+
+        h3 {
+            font-size: .7em;
         }
 
         .creditTag {
@@ -32,6 +46,7 @@
         }
 
         /* iPhone */
+
         @media only screen and (width:320px) and (device-width:320px) and (device-height:480px) and (orientation: landscape) {
             body {
                 -webkit-transform: scale(0.667);
@@ -42,7 +57,9 @@
                 width: 480px;
             }
         }
+
         /* iPad */
+
         @media only screen and (width:768px) and (device-width:768px) and (device-height:1024px) and (orientation: landscape) {
             body {
                 -webkit-transform: scale(0.75);
@@ -55,17 +72,20 @@
         }
     </style>
 </head>
+
 <body>
     <img style="position: absolute; top: 0; left: 0; margin: 0; padding: 0; border: 0; z-index: -1; object-fit: cover; width: 100vw; height: 100vh;"
-    src="/images/matteo-vistocco-240766.jpg">
+        src="/images/matteo-vistocco-240766.jpg">
 
-    <h1>Team Human</h1>
-    <h3>Because we are awesome when we work together!</h3>
-
+    <div id="poptitle">
+        <h1>Team Human</h1>
+        <h3>Because we are awesome when we work together!</h3>
+    </div>
     <i class="creditTag">
         Photo by Matteo Vistocco on Unsplash
     </i>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 </body>
+
 </html>
