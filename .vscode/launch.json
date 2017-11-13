@@ -1,12 +1,10 @@
 {
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "type": "extensionHost",
-                "request": "launch",
-                "name": "Launch Program",
-                "cwd": "${workspaceRoot}",
-                "program": "${workspaceRoot}/mongoose-free-6.9.exe"
-            }
-        ]
-    }
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Launch Program"
+        }
+    ]
+}
