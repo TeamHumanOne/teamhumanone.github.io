@@ -3,7 +3,6 @@
         "experimentalDecorators": true,
         "allowJs": true,
         "target": "es5",
-        "module": "commonjs",
         "sourceMap": true,
         "lib": [
             "es5",
