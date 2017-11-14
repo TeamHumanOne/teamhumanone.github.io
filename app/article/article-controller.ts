@@ -2,17 +2,17 @@
 
 import * as angular from "angular";
 //import { AppController } from "../../../common/AppController";
-class AppController{
+class AppController {
     constructor(
 
-    ){
+    ) {
 
     }
 }
 
 export class ArticleController extends AppController
-    //implements app.components.dialog.IPromptableDialogController 
-    {
+//implements app.components.dialog.IPromptableDialogController 
+{
     /*
     static $inject = [
         '$scope',
@@ -24,7 +24,7 @@ export class ArticleController extends AppController
         private $scope,
         private $state
     ) {
-        //super($scope);
+        super();
 
     }
 

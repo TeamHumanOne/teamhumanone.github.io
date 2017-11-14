@@ -26,8 +26,7 @@ var ArticleController = /** @class */ (function (_super) {
     ];
     */
     function ArticleController($scope, $state) {
-        //super($scope);
-        var _this = this;
+        var _this = _super.call(this) || this;
         _this.$scope = $scope;
         _this.$state = $state;
         return _this;

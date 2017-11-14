@@ -4,6 +4,11 @@
         "allowJs": true,
         "target": "es5",
         "module": "commonjs",
-        "sourceMap": true
+        "sourceMap": true,
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ]
     }
 }
