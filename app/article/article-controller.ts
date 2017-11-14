@@ -21,11 +21,12 @@ export class ArticleController extends AppController
     ];
     */
     constructor(
-        private $scope,
-        private $state
+        public $scope,
+        public $state
     ) {
         super();
 
+        console.log($scope);
     }
 
 }
